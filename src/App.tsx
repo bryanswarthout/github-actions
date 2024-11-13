@@ -13,6 +13,7 @@ const price2 = '$49.99';
 
 function App() {
 
+  
   return (
     <>
       <Advertisement companyName={companyName1} productDescription={productDescription1} price={price1} />
@@ -21,5 +22,6 @@ function App() {
     </>
   )
 }
+
 
 export default App;
